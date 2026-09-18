@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="林恩晴的個人作品集">
+  <title>林恩晴｜個人作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#top">ENCH<span>.</span></a>
+    <nav aria-label="主要導覽">
+      <a href="#about" data-i18n="navAbout">關於我</a>
+      <a href="#interests" data-i18n="navInterests">興趣</a>
+      <a href="#works" data-i18n="navWorks">作品</a>
+      <a href="#contact" data-i18n="navContact">聯絡方式</a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switcher" aria-label="選擇語言">
+        <button class="language-button" type="button" aria-expanded="false" aria-controls="language-menu"><span>中文</span>⌄</button>
+        <div class="language-menu" id="language-menu">
+          <button type="button" data-lang="zh-Hant">中文</button>
+          <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="en">English</button>
+        </div>
+      </div>
+      <a class="mail" href="mailto:hello@linenching.com">HELLO ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="tag">ILLUSTRATOR · TAIPEI, TW</p>
+      <h1 data-i18n-html="heroTitle">把日常，<br><i>畫成溫柔的風景。</i></h1>
+      <div class="hero-foot">
+        <p data-i18n="heroIntro">嗨，我是林恩晴。喜歡用畫筆記錄光影、情緒，還有身邊讓人會心一笑的小事。</p>
+        <div class="cat" role="img" aria-label="一隻布偶貓插畫"><i class="tail"></i><i class="body"></i><i class="head"><em class="ear a"></em><em class="ear b"></em><em class="eye a"></em><em class="eye b"></em><em class="nose"></em></i></div>
+        <a class="circle" href="#about" data-i18n-html="heroButton">認識我<br>↓</a>
+      </div>
+    </section>
+    <div class="ticker" data-i18n="ticker">畫下每一天　✳　布偶貓愛好者　✳　收藏生活裡的小片刻　✳　畫下每一天　✳</div>
+
+    <section id="about" class="section about">
+      <p class="tag">01 — ABOUT ME</p>
+      <div class="two-col">
+        <h2 data-i18n-html="aboutTitle">你好，我是<br>林恩晴。</h2>
+        <div>
+          <p data-i18n="aboutIntro">一位喜歡觀察生活、也喜歡把觀察畫下來的創作者。我相信創作不必轟轟烈烈，一杯咖啡、窗邊的貓咪，都是值得收藏的靈感。</p>
+          <dl>
+            <div><dt data-i18n="nameLabel">名字</dt><dd data-i18n="name">林恩晴</dd></div>
+            <div><dt data-i18n="zodiacLabel">星座</dt><dd data-i18n="zodiac">巨蟹座 ♋</dd></div>
+            <div><dt data-i18n="keywordLabel">生活關鍵字</dt><dd data-i18n="keywords">溫柔 · 好奇 · 慢慢來</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="section interests">
+      <div class="title"><p class="tag">02 — INTERESTS</p><h2 data-i18n="interestsTitle">我喜歡的事</h2><p data-i18n="interestsIntro">讓生活變得更有感覺的小小習慣。</p></div>
+      <div class="cards">
+        <article><b>01</b><h3 data-i18n="interest1Title">畫畫</h3><p data-i18n="interest1Text">以色鉛筆與數位插畫，畫下日常裡的光與心情。</p><span>✎</span></article>
+        <article><b>02</b><h3 data-i18n="interest2Title">貓咪觀察</h3><p data-i18n="interest2Text">特別喜歡布偶貓柔軟的毛、藍色眼睛與慢吞吞的步調。</p><span>♡</span></article>
+        <article><b>03</b><h3 data-i18n="interest3Title">散步尋色</h3><p data-i18n="interest3Text">在巷弄、展覽和咖啡店裡，收集下一張畫的顏色。</p><span>☼</span></article>
+      </div>
+    </section>
+
+    <section id="works" class="section works">
+      <div class="title"><p class="tag">03 — SELECTED WORK</p><h2 data-i18n="worksTitle">我的作品</h2><p data-i18n="worksIntro">一些關於日常、貓咪和溫柔想像的練習。</p></div>
+      <div class="projects">
+        <article class="project wide orange"><span>01 / 04</span><div>☀</div><footer><h3 data-i18n="work1Title">午後的橘子汽水</h3><p data-i18n="work1Meta">數位插畫 · 2025</p></footer></article>
+        <article class="project lilac"><span>02 / 04</span><div data-i18n-html="work2Art">深<br>呼<br>吸</div><footer><h3 data-i18n="work2Title">慢慢呼吸</h3><p data-i18n="work2Meta">色鉛筆練習 · 2025</p></footer></article>
+        <article class="project green"><span>03 / 04</span><div>☘</div><footer><h3 data-i18n="work3Title">花園記事</h3><p data-i18n="work3Meta">生活插畫 · 2024</p></footer></article>
+        <article class="project blue"><span>04 / 04</span><div data-i18n-html="work4Art">藍色<br>的貓</div><footer><h3 data-i18n="work4Title">藍色的貓</h3><p data-i18n="work4Meta">角色創作 · 2024</p></footer></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="tag">04 — CONTACT</p>
+      <h2 data-i18n-html="contactTitle">想說說話？<br><a href="mailto:hello@linenching.com">寫信給我吧。↗</a></h2>
+      <div><p data-i18n-html="contactText">插畫合作 · 交流邀請<br>隨時歡迎來信</p><p><a href="mailto:hello@linenching.com">hello@linenching.com</a></p></div>
+    </section>
+  </main>
+  <footer class="site-footer">© 2025 LIN EN-CHING. MADE WITH A LITTLE PURR.</footer>
+
+  <script>
+    const translations = {
+      "zh-Hant": { label:"中文", pageTitle:"林恩晴｜個人作品集", description:"林恩晴的個人作品集", navAbout:"關於我", navInterests:"興趣", navWorks:"作品", navContact:"聯絡方式", heroTitle:"把日常，<br><i>畫成溫柔的風景。</i>", heroIntro:"嗨，我是林恩晴。喜歡用畫筆記錄光影、情緒，還有身邊讓人會心一笑的小事。", heroButton:"認識我<br>↓", ticker:"畫下每一天　✳　布偶貓愛好者　✳　收藏生活裡的小片刻　✳　畫下每一天　✳", aboutTitle:"你好，我是<br>林恩晴。", aboutIntro:"一位喜歡觀察生活、也喜歡把觀察畫下來的創作者。我相信創作不必轟轟烈烈，一杯咖啡、窗邊的貓咪，都是值得收藏的靈感。", nameLabel:"名字", name:"林恩晴", zodiacLabel:"星座", zodiac:"巨蟹座 ♋", keywordLabel:"生活關鍵字", keywords:"溫柔 · 好奇 · 慢慢來", interestsTitle:"我喜歡的事", interestsIntro:"讓生活變得更有感覺的小小習慣。", interest1Title:"畫畫", interest1Text:"以色鉛筆與數位插畫，畫下日常裡的光與心情。", interest2Title:"貓咪觀察", interest2Text:"特別喜歡布偶貓柔軟的毛、藍色眼睛與慢吞吞的步調。", interest3Title:"散步尋色", interest3Text:"在巷弄、展覽和咖啡店裡，收集下一張畫的顏色。", worksTitle:"我的作品", worksIntro:"一些關於日常、貓咪和溫柔想像的練習。", work1Title:"午後的橘子汽水", work1Meta:"數位插畫 · 2025", work2Art:"深<br>呼<br>吸", work2Title:"慢慢呼吸", work2Meta:"色鉛筆練習 · 2025", work3Title:"花園記事", work3Meta:"生活插畫 · 2024", work4Art:"藍色<br>的貓", work4Title:"藍色的貓", work4Meta:"角色創作 · 2024", contactTitle:'想說說話？<br><a href="mailto:hello@linenching.com">寫信給我吧。↗</a>', contactText:"插畫合作 · 交流邀請<br>隨時歡迎來信" },
+      ja: { label:"日本語", pageTitle:"リン・エンチン｜ポートフォリオ", description:"リン・エンチンのポートフォリオ", navAbout:"私について", navInterests:"好きなこと", navWorks:"作品", navContact:"連絡先", heroTitle:"日常を、<br><i>やさしい景色に描く。</i>", heroIntro:"こんにちは、リン・エンチンです。光や気持ち、思わず微笑む日常のひとこまを絵で残すことが好きです。", heroButton:"私について<br>↓", ticker:"毎日を描く　✳　ラグドール猫が好き　✳　小さな瞬間を集める　✳　毎日を描く　✳", aboutTitle:"こんにちは、<br>リン・エンチンです。", aboutIntro:"暮らしを観察し、その発見を絵にするクリエイターです。創作は壮大でなくてもいい。一杯のコーヒーや窓辺の猫にも、大切なひらめきがあります。", nameLabel:"名前", name:"リン・エンチン", zodiacLabel:"星座", zodiac:"かに座 ♋", keywordLabel:"暮らしの言葉", keywords:"やさしさ · 好奇心 · ゆっくり", interestsTitle:"好きなこと", interestsIntro:"日々を少しだけ豊かにする、小さな習慣。", interest1Title:"絵を描くこと", interest1Text:"色鉛筆とデジタルイラストで、日常の光と気持ちを描いています。", interest2Title:"猫を眺めること", interest2Text:"ふわふわの毛と青い瞳、ゆっくりした歩き方のラグドールが特に好きです。", interest3Title:"散歩で色探し", interest3Text:"路地や展覧会、カフェで次の絵の色を集めています。", worksTitle:"私の作品", worksIntro:"日常、猫、そしてやさしい想像をめぐる練習。", work1Title:"午後のオレンジソーダ", work1Meta:"デジタルイラスト · 2025", work2Art:"深<br>呼<br>吸", work2Title:"ゆっくり呼吸", work2Meta:"色鉛筆の練習 · 2025", work3Title:"庭のノート", work3Meta:"暮らしのイラスト · 2024", work4Art:"青い<br>猫", work4Title:"青い猫", work4Meta:"キャラクター制作 · 2024", contactTitle:'お話ししませんか？<br><a href="mailto:hello@linenching.com">メールをください。↗</a>', contactText:"イラストのご依頼 · お問い合わせ<br>いつでもご連絡ください" },
+      ko: { label:"한국어", pageTitle:"린 언칭｜포트폴리오", description:"린 언칭의 포트폴리오", navAbout:"소개", navInterests:"관심사", navWorks:"작품", navContact:"연락처", heroTitle:"평범한 하루를,<br><i>다정한 풍경으로 그려요.</i>", heroIntro:"안녕하세요, 린 언칭입니다. 빛과 감정, 그리고 미소 짓게 하는 일상의 순간을 그림으로 기록하는 것을 좋아해요.", heroButton:"소개 보기<br>↓", ticker:"매일을 그리다　✳　랙돌 고양이 애호가　✳　작은 순간을 모으다　✳　매일을 그리다　✳", aboutTitle:"안녕하세요,<br>린 언칭입니다.", aboutIntro:"일상을 관찰하고 그 발견을 그림으로 옮기는 창작자입니다. 창작은 거창하지 않아도 된다고 믿어요. 한 잔의 커피와 창가의 고양이도 소중한 영감이 됩니다.", nameLabel:"이름", name:"린 언칭", zodiacLabel:"별자리", zodiac:"게자리 ♋", keywordLabel:"삶의 키워드", keywords:"다정함 · 호기심 · 천천히", interestsTitle:"좋아하는 것", interestsIntro:"일상을 조금 더 특별하게 만드는 작은 습관이에요.", interest1Title:"그림 그리기", interest1Text:"색연필과 디지털 일러스트로 일상의 빛과 감정을 그립니다.", interest2Title:"고양이 관찰", interest2Text:"부드러운 털과 푸른 눈, 느긋한 걸음의 랙돌 고양이를 특히 좋아해요.", interest3Title:"산책하며 색 찾기", interest3Text:"골목, 전시, 카페에서 다음 그림의 색을 모읍니다.", worksTitle:"나의 작품", worksIntro:"일상과 고양이, 다정한 상상에 관한 작은 연습들.", work1Title:"오후의 오렌지 소다", work1Meta:"디지털 일러스트 · 2025", work2Art:"숨을<br>천천히", work2Title:"천천히 숨 쉬기", work2Meta:"색연필 연습 · 2025", work3Title:"정원 기록", work3Meta:"라이프스타일 일러스트 · 2024", work4Art:"파란<br>고양이", work4Title:"파란 고양이", work4Meta:"캐릭터 작업 · 2024", contactTitle:'이야기 나눌까요?<br><a href="mailto:hello@linenching.com">메일을 보내 주세요. ↗</a>', contactText:"일러스트 협업 · 문의<br>언제든 연락해 주세요" },
+      en: { label:"English", pageTitle:"Lin En-Ching｜Portfolio", description:"Portfolio of Lin En-Ching", navAbout:"About", navInterests:"Interests", navWorks:"Works", navContact:"Contact", heroTitle:"Turning everyday life<br><i>into gentle scenery.</i>", heroIntro:"Hi, I am Lin En-Ching. I love preserving light, feelings, and little everyday moments that make us smile through illustration.", heroButton:"Meet me<br>↓", ticker:"DRAWING EVERY DAY　✳　RAGDOLL CAT LOVER　✳　COLLECTING LITTLE MOMENTS　✳　DRAWING EVERY DAY　✳", aboutTitle:"Hello, I am<br>Lin En-Ching.", aboutIntro:"I am a creator who observes everyday life and turns those observations into drawings. Creativity does not need to be grand; a cup of coffee or a cat by the window can be a treasured spark.", nameLabel:"Name", name:"Lin En-Ching", zodiacLabel:"Zodiac", zodiac:"Cancer ♋", keywordLabel:"Life keywords", keywords:"Gentle · Curious · Unhurried", interestsTitle:"Things I love", interestsIntro:"Small habits that make everyday life feel a little more special.", interest1Title:"Drawing", interest1Text:"I use colored pencils and digital illustration to draw everyday light and feelings.", interest2Title:"Cat watching", interest2Text:"I especially love ragdolls: their soft fur, blue eyes, and unhurried walk.", interest3Title:"Color walks", interest3Text:"I collect colors for my next drawing in alleys, galleries, and cafés.", worksTitle:"My works", worksIntro:"A few studies of daily life, cats, and gentle imagination.", work1Title:"Afternoon Orange Soda", work1Meta:"Digital illustration · 2025", work2Art:"Breathe<br>slowly", work2Title:"Breathe slowly", work2Meta:"Colored pencil study · 2025", work3Title:"Garden Notes", work3Meta:"Lifestyle illustration · 2024", work4Art:"Blue<br>Cat", work4Title:"Blue Cat", work4Meta:"Character design · 2024", contactTitle:'Want to chat?<br><a href="mailto:hello@linenching.com">Send me a note. ↗</a>', contactText:"Illustration collaborations · Hellos<br>Always happy to hear from you" }
+    };
+    const languageButton = document.querySelector(".language-button");
+    const languageMenu = document.querySelector(".language-menu");
+    const setLanguage = (language) => {
+      const copy = translations[language];
+      document.documentElement.lang = language;
+      document.title = copy.pageTitle;
+      document.querySelector('meta[name="description"]').content = copy.description;
+      document.querySelectorAll("[data-i18n]").forEach((element) => element.textContent = copy[element.dataset.i18n]);
+      document.querySelectorAll("[data-i18n-html]").forEach((element) => element.innerHTML = copy[element.dataset.i18nHtml]);
+      languageButton.querySelector("span").textContent = copy.label;
+      document.querySelectorAll("[data-lang]").forEach((button) => button.classList.toggle("active", button.dataset.lang === language));
+      localStorage.setItem("portfolio-language", language);
+    };
+    languageButton.addEventListener("click", () => {
+      const open = languageMenu.classList.toggle("open");
+      languageButton.setAttribute("aria-expanded", open);
+    });
+    document.querySelectorAll("[data-lang]").forEach((button) => button.addEventListener("click", () => {
+      setLanguage(button.dataset.lang);
+      languageMenu.classList.remove("open");
+      languageButton.setAttribute("aria-expanded", "false");
+    }));
+    document.addEventListener("click", (event) => {
+      if (!event.target.closest(".language-switcher")) { languageMenu.classList.remove("open"); languageButton.setAttribute("aria-expanded", "false"); }
+    });
+    setLanguage(localStorage.getItem("portfolio-language") || "zh-Hant");
+  </script>
+</body>
+</html>
